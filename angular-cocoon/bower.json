@@ -1,0 +1,42 @@
+{
+  "name": "Angular Cocoon",
+  "version": "1.0.0",
+  "authors": [
+    "Nick Brooks <nbrooks@thirtyseven.com.au>"
+  ],
+  "description": "A working project.",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.github.com/projectfuturism/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-animate": "~1.4.5",
+    "angular-bootstrap": "~0.13.4",
+    "angular-cookies": "~1.3.15",
+    "angular-local-storage": "~0.2.2",
+    "angular-resource": "~1.3.4",
+    "angular-sanitize": "~1.3.4",
+    "angular-toastr": "~1.4.1",
+    "angular-touch": "~1.3.4",
+    "angular-ui-calendar": "latest",
+    "angular-ui-router": "~0.2.13",
+    "animate.css": "~3.2.6",
+    "bootstrap-sass-official": "~3.3.4",
+    "fontawesome": "~4.3.0",
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "angular": "1.4.5"
+  }
+}

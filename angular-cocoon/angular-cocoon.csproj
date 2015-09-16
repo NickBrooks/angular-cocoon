@@ -22,15 +22,39 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\index.html" />
+    <None Include="app\styles\app.scss" />
+    <Content Include="app\js\app.js" />
+    <Content Include="app\js\config.js" />
+    <Content Include="app\js\controllers\home-controller.js" />
+    <Content Include="app\js\controllers\main-controller.js" />
+    <Content Include="app\js\directives\directives.js" />
+    <Content Include="app\js\util.js" />
+    <Content Include="app\views\common\content.html" />
+    <Content Include="app\views\common\topnavbar.html" />
+    <Content Include="app\views\pages\home.html" />
+    <Content Include="gulpfile.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bower.json" />
+    <Content Include="package.json" />
+    <Content Include="app\styles\main.scss" />
+    <Content Include="app\styles\common\_bootstrapOverride.scss" />
+    <Content Include="app\styles\common\_global.scss" />
+    <Content Include="app\styles\common\_variables.scss" />
+    <Content Include="app\styles\layouts\_footer.scss" />
+    <Content Include="app\styles\layouts\_header.scss" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\images\" />
+    <Folder Include="app\js\services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
